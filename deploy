@@ -1,5 +1,5 @@
 -#!/bin/sh
-ssh ec2-user@3.109.1.48 < cd /home/ec2-user/testing3
+ssh -t ec2-user@3.109.1.48 "cd testing3; bash --login"
 git pull origin master
 npm install --production
 pm2 restart all
