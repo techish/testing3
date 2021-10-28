@@ -1,5 +1,5 @@
 #!/bin/sh     
-ssh ec2-user@3.109.1.48 <  cd /node-express-boilerplate
+ssh ec2-user@3.109.1.48 <  cd /testing3
  git pull      
  npm install --production      
  pm2 restart all
