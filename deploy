@@ -1,4 +1,4 @@
--#!/bin/sh     
+-#!/bin/bash   
 ssh ec2-user@3.109.1.48 < cd testing3
  git pull origin master      
  npm install --production      
